@@ -1,0 +1,104 @@
+h2 {
+    color :#21b14c;
+    text-align:center;
+}
+
+
+h3 {
+    color :#008cff
+}
+
+a :link{
+    color:#7ec1ffe5;
+}
+
+a :visited{
+    color:#fa44b4e5;
+}
+
+.header {
+    background-color: #00ffff;
+    display:flex;
+    justify-content: space-between;
+    border: 2px solid
+}
+
+.bodyimg {
+    background-color: #97f771;
+    text-align:center;
+    border: 2px solid;
+    font-family: cursive;
+
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid;
+    background-color: #f8ede8;
+}
+
+.menu {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+
+
+
+.menu a {
+    padding-right: 20px;
+}
+
+.item{
+    border: 1px solid;
+    width: 350px;
+    margin: 10px;
+    padding: 7px;
+    font-family: cursive;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.item img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ .item img{
+    position: relative;
+}
+
+.item h2{
+    /* position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    opacity: 0.5;
+}
+
+.item:hover h2{
+    opacity: 1;
+}
+.item:hover {
+    -webkit-box-shadow: 5px 5px 7px 3px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    5px 5px 7px 3px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         5px 5px 7px 3px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+} 
+
+
+
+.item img:hover{
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+    
+}
